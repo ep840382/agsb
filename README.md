@@ -63,11 +63,11 @@
 #### 📥 一键部署
 ```bash
 # 方式一：wget下载
-cd ~ && wget https://raw.githubusercontent.com/zhumengkang/agsb/main/nginx-hysteria2.py && python3 nginx-hysteria2.py install --simple --port-range 28888-29999 --enable-bbr
+cd ~ && wget https://raw.githubusercontent.com/ep840382/agsb/main/nginx-hysteria2.py && python3 nginx-hysteria2.py install --simple --port-range 28888-29999 --enable-bbr
 
 
 # 方式二：curl下载  
-cd ~ && curl -O https://raw.githubusercontent.com/zhumengkang/agsb/main/nginx-hysteria2.py && python3 nginx-hysteria2.py install --simple --port-range 28888-29999 --enable-bbr
+cd ~ && curl -O https://raw.githubusercontent.com/ep840382/agsb/main/nginx-hysteria2.py && python3 nginx-hysteria2.py install --simple --port-range 28888-29999 --enable-bbr
 
 ```
 
@@ -75,10 +75,10 @@ cd ~ && curl -O https://raw.githubusercontent.com/zhumengkang/agsb/main/nginx-hy
 
 ```bash
 # 方式一：wget下载
-wget https://raw.githubusercontent.com/zhumengkang/agsb/main/nginx-hysteria2.py
+wget https://raw.githubusercontent.com/ep840382/agsb/main/nginx-hysteria2.py
 
 # 方式二：curl下载  
-curl -O https://raw.githubusercontent.com/zhumengkang/agsb/main/nginx-hysteria2.py
+curl -O https://raw.githubusercontent.com/ep840382/agsb/main/nginx-hysteria2.py
 ```
 
 #### ⚡ 最简部署
@@ -397,7 +397,7 @@ python3 agsb.py
 #### 💻 固定域名安装
 
 ```bash
-cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
+cd ~ && curl -fsSL https://raw.githubusercontent.com/ep840382/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
 ```
 
 ### 📁 文件结构
@@ -464,23 +464,23 @@ pip install requests
 
 ```bash
 # 使用curl - 默认URL
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py | python3 -
+curl -fsSL https://raw.githubusercontent.com/ep840382/agsb/main/cron-glitch.py | python3 -
 
 # 使用curl - 指定URL
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py | python3 - -u https://your-project-name.glitch.me
+curl -fsSL https://raw.githubusercontent.com/ep840382/agsb/main/cron-glitch.py | python3 - -u https://your-project-name.glitch.me
 
 # 使用curl - 指定URL和访问间隔
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py | python3 - --url https://your-project-name.glitch.me --interval 30-180
+curl -fsSL https://raw.githubusercontent.com/ep840382/agsb/main/cron-glitch.py | python3 - --url https://your-project-name.glitch.me --interval 30-180
 ```
 
 #### 📥 下载方式
 
 ```bash
 # 使用wget下载
-wget https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py -O glitch.py
+wget https://raw.githubusercontent.com/ep840382/agsb/main/cron-glitch.py -O glitch.py
 
 # 使用curl下载
-curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/cron-glitch.py -o glitch.py
+curl -fsSL https://raw.githubusercontent.com/ep840382/agsb/main/cron-glitch.py -o glitch.py
 ```
 
 #### 🎯 基本使用
@@ -574,10 +574,10 @@ tail -f glitch.log
 
 ```bash
 # wget方式
-cd ~ && wget https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh && chmod +x root.sh && ./root.sh
+cd ~ && wget https://raw.githubusercontent.com/ep840382/agsb/main/root.sh && chmod +x root.sh && ./root.sh
 
 # curl方式
-cd ~ && curl -sSL https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh -o root.sh && chmod +x root.sh && ./root.sh
+cd ~ && curl -sSL https://raw.githubusercontent.com/ep840382/agsb/main/root.sh -o root.sh && chmod +x root.sh && ./root.sh
 ```
 
 ### 🎯 功能特点
