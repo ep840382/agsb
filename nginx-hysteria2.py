@@ -3649,9 +3649,8 @@ show_menu() {{
     echo "6️⃣  删除服务"
     echo "0️⃣  退出"
     echo ""
-    echo "👨‍💻 GitHub: https://github.com/zhumengkang/"
-    echo "📺 YouTube: https://www.youtube.com/@康康的V2Ray与Clash"
-    echo "💬 Telegram: https://t.me/+WibQp7Mww1k5MmZl"
+    echo "📺 YouTube: https://www.youtube.com/@%E7%88%B1%E5%88%86%E4%BA%AB/videos"
+    echo "💬 Telegram: https://t.me/qiankeji"
     echo ""
 }}
 
